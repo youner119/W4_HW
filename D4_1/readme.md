@@ -6,7 +6,7 @@
 
 ![sliding Window](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwYMa4%2FbtqA6pruEvn%2FJJGkGhvMK2yIw1pVzKNGtk%2Fimg.png)
 
-다양한 스케일로 모든 영역을 탐색했다. 이렇게 하는 것은 많이 비효율적이다. 그래서 이 '물체가 있을만한' 영역을 빠르게 찾아내는 알고리즘이 많들어 졌고, R-CNN 에서는 Selective search 알고리즘을 사용한다.
+다양한 스케일로 모든 영역을 탐색한다. 이렇게 하는 것은 많이 비효율적이다. 그래서 이 '물체가 있을만한' 영역을 빠르게 찾아내는 알고리즘이 많들어 졌고, R-CNN 에서는 Selective search 알고리즘을 사용한다.
 
 ![Selective Search](https://mblogthumb-phinf.pstatic.net/MjAxNzAxMjRfMTQg/MDAxNDg1MjE5Mzk5NzI1.Jt_x39NqH2TeqKploHtfTH79scWdJgFXV4zHRV2NvfQg.D9DOiADp4yM1XGyzk3Kkx6MuAjfqUu2ekTRerzc9nsMg.PNG.laonple/selective.png?type=w2)
 
