@@ -209,4 +209,4 @@ predict('Jackson')
 predict('Satoshi')
 ```
 
-모델에 input 값을 집어넣어 테스트 해볼 수 있다.
+모델에 input 값을 집어넣어 테스트 할 수 있다.
