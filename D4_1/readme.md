@@ -106,7 +106,7 @@ Faster R-CNN까지 전부 다 object Dection을 목표로 했다. Mask R-CNN은 
 >
 > ![Image segmentation](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpaJ7s%2FbtqB2vpB4BG%2FTu057OIbPZdBJwK3IfPGK0%2Fimg.png)
 >
-> Image segmentation의 대표적인 방법으로 Semantic segmentation과 Instance segmentation이 있다. Semantic 같은 class인 object들은 같은 영역 혹은 색으로 분할한다. 반대로 Instance Segmentation은 같은 class 여도 다른 Instance로 구분해준다. 
+> Image segmentation의 대표적인 방법으로 Semantic segmentation과 Instance segmentation이 있다. Semantic segmentation은 같은 class인 object들은 같은 영역 혹은 색으로 분할한다. 반대로 Instance Segmentation은 같은 class 여도 다른 Instance로 구분해준다. 
 
 그래서  Instance segmentation을 적용하기 위해서는 objection detection과 semantic segmenation을 동시해 해줘야 한다. 그래서 각 RoI에 mask segmentation을 해주는 FCN을 추가해줬다. 그리고 기존의 RoI Pooling 방법은 위치 정보가 별로 중요하지 않아서 원본 위치 정보가 왜곡이 되었다. Classification task에는 문제가 생기지 않지만  Segmentation task에서는 문제가 생긴다. 그래서 RoI Pooling 대신에 RoI Align을 사용한다.
 
